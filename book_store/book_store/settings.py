@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'book_outlet', # make django aware of that then it will also automatically pick up our models
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
